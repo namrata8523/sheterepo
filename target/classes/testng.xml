@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Online Bank Test suit">
+
+  <test  name="Online bank">
+    <classes>
+      <class name="com.bank.qa.test.Cust_HomePage_Test"></class>
+      <class name="com.bank.qa.test.HomePage_Test"></class>
+      <class name="com.bank.qa.test.Individual_Cust_Deposite_Test"></class>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
